@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.18">
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\Application.java">
+<error line="6" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="9" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\notification\Notification.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="6" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="7" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\notification\NotificationException.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="6" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="10" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\notification\NotificationService.java">
+<error line="16" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\IUserPreferenceService.java">
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceContollerAdvice.java">
+<error line="10" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceDTO.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceException.java">
+<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="6" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="9" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="10" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="11" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferences.java">
+<error line="15" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="25" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesChangedNotification.java">
+<error line="7" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesConfiguration.java">
+<error line="11" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="20" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesController.java">
+<error line="16" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="20" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="24" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="26" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="34" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="39" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="40" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceService.java">
+<error line="22" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="25" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="16" severity="error" message="Variable &apos;logger&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="27" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="74" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="82" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="96" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="110" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="115" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesRepository.java">
+<error line="8" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" severity="error" message="Line matches the illegal pattern &apos;Trailing whitespace&apos;." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\security\LoggedUser.java">
+<error line="6" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\security\SecurityContext.java">
+<error line="12" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

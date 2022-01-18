@@ -1,0 +1,6 @@
+projectKey=ie.dsch.be:be-tech-challenge
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=ie.dsch.be%3Abe-tech-challenge
+ceTaskId=AX5uBZyv_RhZafOBRZ-_
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5uBZyv_RhZafOBRZ-_

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2022-01-17T20:53:05.189">
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\Application.java">
+<violation beginline="7" endline="13" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="ie.dsch.be" class="Application" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be" class="Application" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\notification\NotificationException.java">
+<violation beginline="10" endline="10" begincolumn="30" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.notification" class="NotificationException" method="NotificationException" variable="message" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\notification\NotificationService.java">
+<violation beginline="16" endline="16" begincolumn="29" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.notification" class="NotificationService" variable="jmsTemplate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="30" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.notification" class="NotificationService" method="NotificationService" variable="jmsTemplate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'jmsTemplate' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="20" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.notification" class="NotificationService" method="send" variable="notification" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'notification' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="7" endcolumn="93" rule="PreserveStackTrace" ruleset="Design" package="ie.dsch.be.notification" class="NotificationService" method="send" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\IUserPreferenceService.java">
+<violation beginline="9" endline="9" begincolumn="45" endcolumn="46" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="IUserPreferenceService" method="findByUserId" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceContollerAdvice.java">
+<violation beginline="11" endline="18" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="76" endcolumn="77" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferenceContollerAdvice" method="invalidFormatException" variable="ex" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ex
+</violation>
+<violation beginline="14" endline="14" begincolumn="57" endcolumn="77" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceContollerAdvice" method="invalidFormatException" variable="ex" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ex' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceDTO.java">
+<violation beginline="10" endline="23" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="22" endcolumn="23" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferenceDTO" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceException.java">
+<violation beginline="11" endline="11" begincolumn="40" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceException" method="UserPreferenceException" variable="message" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferenceService.java">
+<violation beginline="25" endline="25" begincolumn="16" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="25" endline="25" begincolumn="16" endcolumn="76" rule="LoggerIsNotStaticFinal" ruleset="Java Logging" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#LoggerIsNotStaticFinal" priority="2">
+The Logger variable declaration does not contain the static and final modifiers
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="77" rule="DefaultPackage" ruleset="Controversial" package="ie.dsch.be.preferences" class="UserPreferenceService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="28" endline="28" begincolumn="31" endcolumn="43" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="messageDigest" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="31" endline="31" begincolumn="37" endcolumn="55" rule="LongVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="notificationService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like notificationService
+</violation>
+<violation beginline="31" endline="31" begincolumn="37" endcolumn="55" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="notificationService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="34" endline="34" begincolumn="43" endcolumn="52" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="repository" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="37" endline="37" begincolumn="33" endcolumn="46" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="securityHolder" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="40" endline="40" begincolumn="43" endcolumn="67" rule="LongVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="userPreferencesRepository" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like userPreferencesRepository
+</violation>
+<violation beginline="40" endline="40" begincolumn="43" endcolumn="67" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="userPreferencesRepository" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="43" endline="43" begincolumn="29" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferenceService" variable="modelMapper" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="46" endline="46" begincolumn="75" endcolumn="91" rule="AvoidReassigningParameters" ruleset="Design" package="ie.dsch.be.preferences" class="UserPreferenceService" method="update" variable="userPreferenceDTO" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'userPreferenceDTO'
+</violation>
+<violation beginline="46" endline="46" begincolumn="44" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="update" variable="userId" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userId' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="93" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="update" variable="preferencesRecord" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'preferencesRecord' could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="25" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="update" variable="preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'preferences' could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="52" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferenceService" method="findByUserId" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="67" endline="67" begincolumn="45" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="findByUserId" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="21" endcolumn="35" rule="PositionLiteralsFirstInComparisons" ruleset="Design" package="ie.dsch.be.preferences" class="UserPreferenceService" method="findByUserId" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInComparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="74" endline="74" begincolumn="75" endcolumn="107" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="userPreferencesChanged" variable="userPreferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userPreferences' is not assigned and could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="17" endcolumn="99" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="userPreferencesChanged" variable="event" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'event' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="43" endcolumn="89" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="getMessageChecksum" variable="notification" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'notification' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="17" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="getMessageChecksum" variable="objectMapper" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'objectMapper' could be declared final
+</violation>
+<violation beginline="85" endline="88" begincolumn="25" endcolumn="103" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="ie.dsch.be.preferences" class="UserPreferenceService" method="getMessageChecksum" variable="hash" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'hash' (lines '85'-'88').
+</violation>
+<violation beginline="88" endline="94" begincolumn="25" endcolumn="103" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="ie.dsch.be.preferences" class="UserPreferenceService" method="getMessageChecksum" variable="hash" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'hash' (lines '88'-'94').
+</violation>
+<violation beginline="90" endline="90" begincolumn="25" endcolumn="108" rule="PreserveStackTrace" ruleset="Design" package="ie.dsch.be.preferences" class="UserPreferenceService" method="getMessageChecksum" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+<violation beginline="96" endline="96" begincolumn="42" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="bytesToHex" variable="hash" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'hash' is not assigned and could be declared final
+</violation>
+<violation beginline="97" endline="97" begincolumn="17" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="bytesToHex" variable="hexString" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'hexString' could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="25" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="bytesToHex" variable="hex" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'hex' could be declared final
+</violation>
+<violation beginline="101" endline="101" begincolumn="45" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="ie.dsch.be.preferences" class="UserPreferenceService" method="bytesToHex" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="110" endline="110" begincolumn="48" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferenceService" method="convertToDto" variable="preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'preferences' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferences.java">
+<violation beginline="23" endline="37" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="27" endline="27" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferences" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesChangedNotification.java">
+<violation beginline="8" endline="29" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="45" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferencesChangedNotification" variable="userPreferenceDTO" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="11" endcolumn="26" rule="AvoidFieldNameMatchingMethodName" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferencesChangedNotification" variable="checksum" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#AvoidFieldNameMatchingMethodName" priority="3">
+Field checksum has the same name as a method
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferencesChangedNotification" variable="checksum" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesConfiguration.java">
+<violation beginline="12" endline="25" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\preferences\UserPreferencesController.java">
+<violation beginline="18" endline="46" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.preferences" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="21" endline="21" begincolumn="34" endcolumn="55" rule="LongVariable" ruleset="Naming" package="ie.dsch.be.preferences" class="UserPreferencesController" variable="userPreferencesService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like userPreferencesService
+</violation>
+<violation beginline="21" endline="21" begincolumn="34" endcolumn="55" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferencesController" variable="userPreferencesService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="27" endline="27" begincolumn="43" endcolumn="52" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="ie.dsch.be.preferences" class="UserPreferencesController" variable="repository" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="30" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferencesController" method="get" variable="userId" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userId' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="38" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferencesController" method="update" variable="userId" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userId' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="65" endcolumn="112" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="ie.dsch.be.preferences" class="UserPreferencesController" method="update" variable="userPreferenceDTO" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userPreferenceDTO' is not assigned and could be declared final
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\security\LoggedUser.java">
+<violation beginline="8" endline="12" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.security" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="10" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Naming" package="ie.dsch.be.security" class="LoggedUser" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="G:\Distilled-techchallenge\bharath.sreenivasan-tech-challenge\bharath.sreenivasan-tech-challenge\src\main\java\ie\dsch\be\security\SecurityContext.java">
+<violation beginline="10" endline="16" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="ie.dsch.be.security" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+</file>
+</pmd>
