@@ -14,14 +14,14 @@ import org.springframework.stereotype.Service;
 public class MyUserDetailsService implements UserDetailsService {
 
 	@Autowired
-	private ValidUserRepository validUserRepository;
+	private UsersRepository usersRepo;
     
     @Autowired
     private SecurityContext securityContext;
     
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-    	     Optional<Users> user = validUserRepository.findByUser(s);
+    	     Optional<Users> user = usersRepo.findByUser(s);
     		if(user.isPresent())
         	{
     			securityContext.setCurrentUser(user.get().getValue());
