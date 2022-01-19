@@ -29,7 +29,7 @@ public class UserPreferenceService implements IUserPreferenceService {
 	private Logger logger = LoggerFactory.getLogger(UserPreferenceService.class);
 
 	private static final String CURRENT_USER = "me";
-	
+
 	@Autowired
 	private MessageDigest messageDigest;
 
@@ -70,17 +70,20 @@ public class UserPreferenceService implements IUserPreferenceService {
 	}
 
 	@Override
-	//@Cacheable(value = "UserPreferenceDTO", key = "#id")
+	// @Cacheable(value = "UserPreferenceDTO", key = "#id")
 	public ResponseEntity<UserPreferenceDTO> findByUserId(String id) throws UserPreferenceException {
 		Optional<UserPreferences> user;
 		if (id.equals(CURRENT_USER)) {
 			user = repository.findByUserId(securityHolder.currentUser().getId());
-			if(user.isPresent())
+			if (user.isPresent())
 				return ResponseEntity.status(HttpStatus.OK).body(convertToDto(user.get()));
 			throw new UserPreferenceException("Id Value Not found in database");
 		}
+		if (id.length() != id.replaceAll("[a-zA-Z]", "").length())
+			return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new UserPreferenceDTO());
+
 		user = repository.findByUserId(Long.valueOf(id));
-		if(user.isPresent())
+		if (user.isPresent())
 			return ResponseEntity.status(HttpStatus.OK).body(convertToDto(user.get()));
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new UserPreferenceDTO());
 	}
@@ -125,7 +128,5 @@ public class UserPreferenceService implements IUserPreferenceService {
 		logger.debug("UserPreferenceService:convertToDto:Entity Converted to DTO class");
 		return modelMapper.map(preferences, UserPreferenceDTO.class);
 	}
-
-	
 
 }
