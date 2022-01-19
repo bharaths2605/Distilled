@@ -28,7 +28,7 @@ public class UserPreferenceContollerAdvice {
 	}
 	
 	@ExceptionHandler(MalformedJwtException.class)
-	public ResponseEntity<String> invalidFormatException1(MalformedJwtException ex) {
+	public ResponseEntity<String> invalidJWTFormatException(MalformedJwtException ex) {
 
 		return ResponseEntity.status(HttpStatus.FORBIDDEN).body("JWT Token is Not Valid");
 	}
