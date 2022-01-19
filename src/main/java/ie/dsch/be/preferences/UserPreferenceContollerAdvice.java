@@ -2,6 +2,7 @@ package ie.dsch.be.preferences;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
@@ -31,6 +32,12 @@ public class UserPreferenceContollerAdvice {
 
 		return ResponseEntity.status(HttpStatus.FORBIDDEN).body("JWT Token is Not Valid");
 	}
+	
+	  @ExceptionHandler({ BadCredentialsException.class })
+	    protected ResponseEntity<String> handleApiException(BadCredentialsException ex) {
+		  
+	        return  ResponseEntity.status(400).body("Invalid User Name or Password");
+	    }
 	
 	
 }

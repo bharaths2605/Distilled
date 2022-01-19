@@ -24,20 +24,13 @@ public class AuthenticateController {
 	private MyUserDetailsService userDetailsService;
 
 	@PostMapping(value = "/authenticate")
-	public ResponseEntity<AuthenticationResponse> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws UserPreferenceException {
+	public ResponseEntity<AuthenticationResponse> createAuthenticationToken(
+			@RequestBody AuthenticationRequest authenticationRequest) throws BadCredentialsException {
 
-		try {
-			authenticationManager.authenticate(
-					new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(), authenticationRequest.getPassword())
-			);
-		}
-		catch (BadCredentialsException e) {
-			throw new UserPreferenceException("Incorrect username or password");
-		}
+		authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(),
+				authenticationRequest.getPassword()));
 
-
-		final UserDetails userDetails = userDetailsService
-				.loadUserByUsername(authenticationRequest.getUsername());
+		final UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
 
 		final String jwt = jwtTokenUtil.generateToken(userDetails);
 
